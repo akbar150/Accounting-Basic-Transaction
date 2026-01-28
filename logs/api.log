@@ -1,0 +1,198 @@
+2026-01-27 19:07:24 - Transaction API called with method: GET
+2026-01-27 19:07:24 - GET filters: {"customer_id":null,"transaction_type":null,"date_from":null,"date_to":null}
+2026-01-27 19:07:24 - Returned 1 records
+2026-01-27 19:07:31 - Transaction API called with method: POST
+2026-01-27 19:07:31 - POST request received
+2026-01-27 19:07:31 - Raw input: {"customer_id":"1","transaction_type":"debit","amount":100,"transaction_date":"2026-01-27","comments":"Test transaction"}
+2026-01-27 19:07:31 - Creating transaction for customer: 1
+2026-01-27 19:07:31 - Transaction created with ID: 2
+2026-01-27 19:07:53 - Transaction API called with method: GET
+2026-01-27 19:07:53 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 19:07:53 - Returned 2 records
+2026-01-27 19:08:02 - Transaction API called with method: GET
+2026-01-27 19:08:02 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 19:08:02 - Returned 2 records
+2026-01-27 19:08:37 - Transaction API called with method: GET
+2026-01-27 19:08:37 - GET filters: {"customer_id":null,"transaction_type":null,"date_from":null,"date_to":null}
+2026-01-27 19:08:37 - Returned 2 records
+2026-01-27 19:09:16 - Transaction API called with method: POST
+2026-01-27 19:09:16 - POST request received
+2026-01-27 19:09:16 - Raw input: {"customer_id":"1","transaction_type":"debit","category_id":"3","amount":10000,"transaction_date":"2026-01-27","comments":"Test Trnx 1000"}
+2026-01-27 19:09:16 - Creating transaction for customer: 1
+2026-01-27 19:09:16 - Transaction created with ID: 3
+2026-01-27 19:09:25 - Transaction API called with method: GET
+2026-01-27 19:09:25 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 19:09:25 - Returned 3 records
+2026-01-27 19:09:37 - Transaction API called with method: GET
+2026-01-27 19:09:37 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 19:09:37 - Returned 3 records
+2026-01-27 19:11:13 - Transaction API called with method: GET
+2026-01-27 19:11:13 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 19:11:13 - Returned 3 records
+2026-01-27 20:03:44 - Transaction API called with method: GET
+2026-01-27 20:03:44 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:03:44 - Returned 3 records
+2026-01-27 20:03:48 - Transaction API called with method: GET
+2026-01-27 20:03:48 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:03:48 - Returned 3 records
+2026-01-27 20:12:46 - Transaction API called with method: GET
+2026-01-27 20:12:46 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:12:46 - Returned 3 records
+2026-01-27 20:15:08 - Transaction API called with method: GET
+2026-01-27 20:15:08 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:15:08 - Returned 3 records
+2026-01-27 20:21:03 - Transaction API called with method: GET
+2026-01-27 20:21:03 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:03 - Returned 3 records
+2026-01-27 20:21:11 - Transaction API called with method: GET
+2026-01-27 20:21:11 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:11 - Returned 3 records
+2026-01-27 20:21:12 - Transaction API called with method: GET
+2026-01-27 20:21:12 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:12 - Returned 3 records
+2026-01-27 20:21:18 - Transaction API called with method: DELETE
+2026-01-27 20:21:18 - Transaction API called with method: GET
+2026-01-27 20:21:18 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:18 - Returned 2 records
+2026-01-27 20:21:20 - Transaction API called with method: DELETE
+2026-01-27 20:21:20 - Transaction API called with method: GET
+2026-01-27 20:21:20 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:20 - Returned 1 records
+2026-01-27 20:21:23 - Transaction API called with method: DELETE
+2026-01-27 20:21:23 - Transaction API called with method: GET
+2026-01-27 20:21:23 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:23 - Returned 0 records
+2026-01-27 20:21:27 - Transaction API called with method: GET
+2026-01-27 20:21:27 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:27 - Returned 0 records
+2026-01-27 20:21:29 - Transaction API called with method: GET
+2026-01-27 20:21:29 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:29 - Returned 0 records
+2026-01-27 20:21:30 - Transaction API called with method: GET
+2026-01-27 20:21:30 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:30 - Returned 0 records
+2026-01-27 20:21:31 - Transaction API called with method: GET
+2026-01-27 20:21:31 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:31 - Returned 0 records
+2026-01-27 20:21:32 - Transaction API called with method: GET
+2026-01-27 20:21:32 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:32 - Returned 0 records
+2026-01-27 20:21:33 - Transaction API called with method: GET
+2026-01-27 20:21:33 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:33 - Returned 0 records
+2026-01-27 20:21:33 - Transaction API called with method: GET
+2026-01-27 20:21:33 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:33 - Returned 0 records
+2026-01-27 20:21:35 - Transaction API called with method: GET
+2026-01-27 20:21:35 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:35 - Returned 0 records
+2026-01-27 20:21:42 - Transaction API called with method: GET
+2026-01-27 20:21:42 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:42 - Returned 0 records
+2026-01-27 20:21:50 - Transaction API called with method: GET
+2026-01-27 20:21:50 - GET filters: {"customer_id":"1","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:21:50 - Returned 0 records
+2026-01-27 20:24:31 - Transaction API called with method: GET
+2026-01-27 20:24:31 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:24:31 - Returned 0 records
+2026-01-27 20:24:33 - Transaction API called with method: GET
+2026-01-27 20:24:33 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:24:33 - Returned 0 records
+2026-01-27 20:24:35 - Transaction API called with method: GET
+2026-01-27 20:24:35 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:24:35 - Returned 0 records
+2026-01-27 20:24:40 - Transaction API called with method: GET
+2026-01-27 20:24:40 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:24:40 - Returned 0 records
+2026-01-27 20:24:47 - Transaction API called with method: GET
+2026-01-27 20:24:47 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:24:47 - Returned 0 records
+2026-01-27 20:25:15 - Transaction API called with method: GET
+2026-01-27 20:25:15 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:25:15 - Returned 0 records
+2026-01-27 20:25:22 - Transaction API called with method: GET
+2026-01-27 20:25:22 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:25:22 - Returned 0 records
+2026-01-27 20:25:28 - Transaction API called with method: GET
+2026-01-27 20:25:28 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:25:28 - Returned 0 records
+2026-01-27 20:36:05 - Transaction API called with method: GET
+2026-01-27 20:36:05 - GET filters: {"customer_id":null,"transaction_type":null,"date_from":null,"date_to":null}
+2026-01-27 20:36:05 - Returned 0 records
+2026-01-27 20:36:15 - Transaction API called with method: POST
+2026-01-27 20:36:15 - POST request received
+2026-01-27 20:36:15 - Raw input: {"customer_id":"1","transaction_type":"debit","amount":100,"transaction_date":"2026-01-27","comments":"Test transaction"}
+2026-01-27 20:36:15 - Creating transaction for customer: 1
+2026-01-27 20:36:15 - Transaction created with ID: 4
+2026-01-27 20:37:51 - Transaction API called with method: GET
+2026-01-27 20:37:51 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:37:51 - Returned 1 records
+2026-01-27 20:37:58 - Transaction API called with method: GET
+2026-01-27 20:37:58 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:37:58 - Returned 1 records
+2026-01-27 20:44:16 - Transaction API called with method: GET
+2026-01-27 20:44:16 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:44:16 - Returned 0 records
+2026-01-27 20:44:40 - Transaction API called with method: POST
+2026-01-27 20:44:40 - POST request received
+2026-01-27 20:44:40 - Raw input: {"customer_id":"1","transaction_type":"debit","amount":100,"transaction_date":"2026-01-27","comments":"Test transaction"}
+2026-01-27 20:44:40 - Creating transaction for customer: 1
+2026-01-27 20:44:40 - Transaction created with ID: 5
+2026-01-27 20:44:42 - Transaction API called with method: POST
+2026-01-27 20:44:42 - POST request received
+2026-01-27 20:44:42 - Raw input: {"customer_id":"1","transaction_type":"debit","amount":100,"transaction_date":"2026-01-27","comments":"Test transaction"}
+2026-01-27 20:44:42 - Creating transaction for customer: 1
+2026-01-27 20:44:42 - Transaction created with ID: 6
+2026-01-27 20:44:43 - Transaction API called with method: POST
+2026-01-27 20:44:43 - POST request received
+2026-01-27 20:44:43 - Raw input: {"customer_id":"1","transaction_type":"debit","amount":100,"transaction_date":"2026-01-27","comments":"Test transaction"}
+2026-01-27 20:44:43 - Creating transaction for customer: 1
+2026-01-27 20:44:43 - Transaction created with ID: 7
+2026-01-27 20:44:51 - Transaction API called with method: GET
+2026-01-27 20:44:51 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:44:51 - Returned 3 records
+2026-01-27 20:45:00 - Transaction API called with method: GET
+2026-01-27 20:45:00 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:45:00 - Returned 3 records
+2026-01-27 20:47:00 - Transaction API called with method: GET
+2026-01-27 20:47:00 - GET filters: {"customer_id":null,"transaction_type":null,"date_from":null,"date_to":null}
+2026-01-27 20:47:00 - Returned 3 records
+2026-01-27 20:47:23 - Transaction API called with method: GET
+2026-01-27 20:47:23 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:47:23 - Returned 3 records
+2026-01-27 20:52:36 - Transaction API called with method: POST
+2026-01-27 20:52:36 - POST request received
+2026-01-27 20:52:36 - Raw input: {"customer_id":"1","transaction_type":"debit","amount":100,"transaction_date":"2026-01-27","comments":"Test transaction"}
+2026-01-27 20:52:36 - Creating transaction for customer: 1
+2026-01-27 20:52:36 - Transaction created with ID: 8
+2026-01-27 20:52:47 - Transaction API called with method: GET
+2026-01-27 20:52:47 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:52:47 - Returned 4 records
+2026-01-27 20:53:06 - Transaction API called with method: GET
+2026-01-27 20:53:06 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:53:06 - Returned 4 records
+2026-01-27 20:53:23 - Transaction API called with method: GET
+2026-01-27 20:53:23 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:53:23 - Returned 4 records
+2026-01-27 20:53:53 - Transaction API called with method: GET
+2026-01-27 20:53:53 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:53:53 - Returned 4 records
+2026-01-27 20:54:12 - Transaction API called with method: DELETE
+2026-01-27 20:54:12 - Transaction API called with method: GET
+2026-01-27 20:54:12 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:54:12 - Returned 3 records
+2026-01-27 20:54:14 - Transaction API called with method: DELETE
+2026-01-27 20:54:14 - Transaction API called with method: GET
+2026-01-27 20:54:14 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:54:14 - Returned 2 records
+2026-01-27 20:54:16 - Transaction API called with method: DELETE
+2026-01-27 20:54:16 - Transaction API called with method: GET
+2026-01-27 20:54:16 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:54:16 - Returned 1 records
+2026-01-27 20:54:18 - Transaction API called with method: DELETE
+2026-01-27 20:54:18 - Transaction API called with method: GET
+2026-01-27 20:54:18 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:54:18 - Returned 0 records
+2026-01-27 20:54:31 - Transaction API called with method: GET
+2026-01-27 20:54:31 - GET filters: {"customer_id":"","transaction_type":"","date_from":"","date_to":""}
+2026-01-27 20:54:31 - Returned 0 records

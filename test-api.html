@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Test</title>
+    <style>
+        body { font-family: monospace; padding: 20px; background: #f0f0f0; }
+        .test { background: white; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        .pass { color: green; }
+        .fail { color: red; }
+        pre { background: #f5f5f5; padding: 10px; overflow-x: auto; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>API Diagnostic Tool</h1>
+    <div>
+        <button onclick="testAuth()">1. Test Login</button>
+        <button onclick="testCustomers()">2. Test Customers</button>
+        <button onclick="testTransactions()">3. Test Transactions</button>
+        <button onclick="testCreateTransaction()">4. Test Create Transaction</button>
+    </div>
+    <div id="results"></div>
+
+<script>
+const API_URL = 'api';
+let token = localStorage.getItem('test_token') || '';
+
+function log(title, data, isError = false) {
+    const div = document.createElement('div');
+    div.className = 'test';
+    div.innerHTML = `<h3 class="${isError ? 'fail' : 'pass'}">${title}</h3><pre>${JSON.stringify(data, null, 2)}</pre>`;
+    document.getElementById('results').prepend(div);
+}
+
+async function testAuth() {
+    try {
+        const res = await fetch(`${API_URL}/auth.php?action=login`, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({email: 'admin@system.com', password: 'admin123'})
+        });
+        const data = await res.json();
+        if (data.success) {
+            token = data.data.token;
+            localStorage.setItem('test_token', token);
+            log('✓ Login Success', data);
+        } else {
+            log('✗ Login Failed', data, true);
+        }
+    } catch(e) {
+        log('✗ Login Error', e.message, true);
+    }
+}
+
+async function testCustomers() {
+    try {
+        const res = await fetch(`${API_URL}/customers.php`, {
+            headers: {'Authorization': 'Bearer ' + token}
+        });
+        const data = await res.json();
+        log('✓ Customers Loaded', data);
+    } catch(e) {
+        log('✗ Customers Error', e.message, true);
+    }
+}
+
+async function testTransactions() {
+    try {
+        const res = await fetch(`${API_URL}/transactions.php?page=1`, {
+            headers: {'Authorization': 'Bearer ' + token}
+        });
+        const data = await res.json();
+        log('✓ Transactions Loaded', data);
+    } catch(e) {
+        log('✗ Transactions Error', e.message, true);
+    }
+}
+
+async function testCreateTransaction() {
+    try {
+        // First get a customer ID
+        const custRes = await fetch(`${API_URL}/customers.php?limit=1`, {
+            headers: {'Authorization': 'Bearer ' + token}
+        });
+        const custData = await custRes.json();
+        
+        if (!custData.success || !custData.data.data.length) {
+            log('✗ No customers found', 'Create a customer first', true);
+            return;
+        }
+        
+        const customerId = custData.data.data[0].id;
+        
+        const res = await fetch(`${API_URL}/transactions.php`, {
+            method: 'POST',
+            headers: {
+                'Authorization': 'Bearer ' + token,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                customer_id: customerId,
+                transaction_type: 'debit',
+                amount: 100.00,
+                transaction_date: new Date().toISOString().split('T')[0],
+                comments: 'Test transaction'
+            })
+        });
+        const data = await res.json();
+        log(data.success ? '✓ Transaction Created' : '✗ Create Failed', data, !data.success);
+    } catch(e) {
+        log('✗ Create Error', e.message, true);
+    }
+}
+
+// Auto-run on load
+if (token) {
+    log('Using existing token', {token: token.substring(0, 20) + '...'});
+} else {
+    log('No token found', 'Click "Test Login" first');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+[27-Jan-2026 18:03:25 UTC] PHP Warning:  Undefined array key "HTTP_HOST" in /home/usewrijkgl/kahaf.easypaybilling.com/config.php on line 18
+[27-Jan-2026 18:03:25 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in /home/usewrijkgl/kahaf.easypaybilling.com/config.php on line 36
+[27-Jan-2026 18:04:13 UTC] PHP Warning:  Undefined array key "HTTP_HOST" in /home/usewrijkgl/kahaf.easypaybilling.com/config.php on line 18
+[27-Jan-2026 18:04:13 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in /home/usewrijkgl/kahaf.easypaybilling.com/config.php on line 36
